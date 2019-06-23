@@ -1,1 +1,1 @@
-web: python run.py
+web: guicorn flaskblog:run
